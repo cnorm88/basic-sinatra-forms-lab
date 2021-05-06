@@ -5,9 +5,14 @@
   <title>Basketball Team</title>
  </head>
  <body>
- 
-
-
+    <h1><%= @params[:name]%></h1>
+    <ul>
+    <li><p>Team Name: <%= @params[:name]%></p></li>
+    <li><p>Coach: <%= @params[:coach]%></p></li>
+    <li><p>Point Guard: <%= @params[:pg]%></p></li>
+    <li><p>Shooting Guard: <%= @params[:sg]%></p></li>
+    <li><p>Power Forward: <%= @params[:pf]%></p></li>
+    <li><p>Center: <%= @params[:c]%></p></li>
  </body>
 </html>
 
